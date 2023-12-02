@@ -13,9 +13,6 @@ NUM_STR_TO_INT = {
 
 
 def check_for_spelling_at_character(i, str, reversed=False):
-    # if reversed:
-    #     i = len(str) - i - 1
-    #     str = str[::-1]
     available_chars = len(str) - i
     if available_chars < 3:
         return None
